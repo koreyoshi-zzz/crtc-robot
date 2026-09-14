@@ -1,0 +1,28 @@
+# ===== 系统文件 =====
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# ===== 编辑器 =====
+.vscode/
+*.code-workspace
+
+# ===== 文档临时文件 =====
+~$*.doc*
+*.tmp
+
+# ===== 编译产物（STM32 / 嵌入式工程，放代码后生效）=====
+build/
+Debug/
+Release/
+*.o
+*.obj
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.su
+*.d
+*.i
+*.s
